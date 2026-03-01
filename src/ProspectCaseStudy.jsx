@@ -114,8 +114,8 @@ export default function ProspectCaseStudy() {
       <div style={{ background: "linear-gradient(135deg, #1B4965 0%, #2D6A8E 50%, #3A7CA5 100%)", padding: "80px 40px 60px", textAlign: "center" }}>
         <div style={{ fontFamily: fonts.mono, fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(255,255,255,0.6)", marginBottom: 20 }}>Product Case Study · 0-to-1 Concept</div>
         <div style={{ fontFamily: fonts.serif, fontSize: 56, fontWeight: 700, color: "#fff", marginBottom: 8, letterSpacing: "-0.01em" }}>Prospect</div>
-        <h1 style={{ fontFamily: fonts.serif, fontSize: 28, fontWeight: 400, fontStyle: "italic", color: "rgba(255,255,255,0.85)", margin: "0 auto 20px", maxWidth: 600, lineHeight: 1.3 }}>The college admissions co-pilot that every student deserves — not just the ones who can afford a private consultant.</h1>
-        <p style={{ fontFamily: fonts.sans, fontSize: 17, color: "rgba(255,255,255,0.6)", maxWidth: 520, margin: "0 auto 32px", lineHeight: 1.6 }}>A mobile-first app that helps students build balanced school lists and write standout supplements — powered by AI guidance and real admissions intelligence.</p>
+        <h1 style={{ fontFamily: fonts.serif, fontSize: 28, fontWeight: 400, fontStyle: "italic", color: "rgba(255,255,255,0.85)", margin: "0 auto 20px", maxWidth: 600, lineHeight: 1.3 }}>The college admissions co-pilot every student deserves, not just the ones who can afford a private consultant.</h1>
+        <p style={{ fontFamily: fonts.sans, fontSize: 17, color: "rgba(255,255,255,0.6)", maxWidth: 520, margin: "0 auto 32px", lineHeight: 1.6 }}>A mobile-first app that helps students build balanced school lists and write standout supplements, powered by AI guidance and real admissions intelligence.</p>
         <div style={{ display: "flex", gap: 32, justifyContent: "center", flexWrap: "wrap" }}>
           {[["Spencer Horstman", "Product Manager"], ["0 → 1", "Product Concept"], ["Mobile-First", "Web Accessible"]].map(([v, l], i) => (
             <div key={i} style={{ textAlign: "center" }}>
@@ -132,8 +132,8 @@ export default function ProspectCaseStudy() {
         {/* Market Opportunity */}
         <Label>Market Opportunity</Label>
         <Title>The Access Gap in College Admissions</Title>
-        <Body>Every year, approximately 3.7 million students graduate from U.S. high schools. Of those, roughly 2 million apply to four-year colleges. The vast majority navigate this process with minimal guidance — the average public school counselor manages 400+ students, leaving most with fewer than 20 minutes of individual college advising per year.</Body>
-        <Body>Meanwhile, families who can afford private consultants (charging $5,000–$25,000+) receive personalized list-building, essay coaching, and application strategy. This creates a two-tier system where access to guidance — not ability — determines outcomes. Prospect exists to close that gap.</Body>
+        <Body>Every year, approximately 3.7 million students graduate from U.S. high schools. Of those, roughly 2 million apply to four-year colleges. The vast majority navigate this process with minimal guidance. The average public school counselor manages 400+ students, leaving most with fewer than 20 minutes of individual college advising per year.</Body>
+        <Body>Meanwhile, families who can afford private consultants (charging $5,000–$25,000+) receive personalized list-building, essay coaching, and application strategy. This creates a two-tier system where access to guidance, not ability, determines outcomes. Prospect exists to close that gap.</Body>
 
         <div style={{ display: "flex", gap: 14, flexWrap: "wrap", margin: "24px 0 28px" }}>
           <MetricCard value="3.7M" label="U.S. high school graduates annually" />
@@ -144,7 +144,7 @@ export default function ProspectCaseStudy() {
 
         <Card style={{ margin: "0 0 24px", padding: 20, background: C.accentLight, border: `1px solid ${C.accent}30` }}>
           <div style={{ fontFamily: fonts.mono, fontSize: 10, color: C.accent, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 8, fontWeight: 600 }}>The Insight</div>
-          <div style={{ fontFamily: fonts.serif, fontSize: 18, color: C.text, lineHeight: 1.5, fontStyle: "italic" }}>"After 9 years of consulting, I realized the biggest value I provide isn't expertise — it's structure. I help students see which schools actually fit them, spot the overlap in their essay prompts, and stay on track. That's not magic. It's a system — and systems can scale."</div>
+          <div style={{ fontFamily: fonts.serif, fontSize: 18, color: C.text, lineHeight: 1.5, fontStyle: "italic" }}>"After 9 years of consulting, I realized the biggest value I provide isn't expertise. It's structure. I help students see which schools actually fit them, spot the overlap in their essay prompts, and stay on track. That's not magic. It's a system, and systems can scale."</div>
           <div style={{ fontFamily: fonts.sans, fontSize: 13, color: C.muted, marginTop: 8 }}>— Spencer Horstman</div>
         </Card>
 
@@ -180,7 +180,7 @@ export default function ProspectCaseStudy() {
         {/* Personas */}
         <Label>User Personas</Label>
         <Title>Who Prospect Serves</Title>
-        <Body>Prospect is designed for three distinct user types who intersect during the admissions process. The primary user is the student — but the product must also account for parental involvement and the counselor's limited bandwidth.</Body>
+        <Body>Prospect is designed for three distinct user types who intersect during the admissions process. The primary user is the student, but the product must also account for parental involvement and the counselor's limited bandwidth.</Body>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 16, margin: "24px 0" }}>
           <PersonaCard
@@ -232,7 +232,7 @@ export default function ProspectCaseStudy() {
           <Card style={{ flex: 1, minWidth: 300, borderTop: `4px solid ${C.purple}` }}>
             <div style={{ fontFamily: fonts.mono, fontSize: 10, color: C.purple, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 10, fontWeight: 600 }}>Pillar 2</div>
             <div style={{ fontFamily: fonts.serif, fontSize: 22, fontWeight: 700, color: C.text, marginBottom: 8 }}>Supplement Coach</div>
-            <div style={{ fontFamily: fonts.sans, fontSize: 14, color: C.muted, lineHeight: 1.6 }}>Once a student builds their list, Prospect maps all supplement requirements, detects overlapping prompts, and provides AI-guided writing assistance — helping students understand what each school is looking for and draft responses that are specific, authentic, and differentiated.</div>
+            <div style={{ fontFamily: fonts.sans, fontSize: 14, color: C.muted, lineHeight: 1.6 }}>Once a student builds their list, Prospect maps all supplement requirements, detects overlapping prompts, and provides AI-guided writing assistance, helping students understand what each school is looking for and draft responses that are specific, authentic, and differentiated.</div>
             <div style={{ marginTop: 14, display: "flex", flexWrap: "wrap", gap: 6 }}>
               {["Prompt Mapping", "Overlap Detection", "School-Specific Guidance", "Draft Feedback", "Timeline Management"].map((f, i) => (
                 <Chip key={i} label={f} color={C.purple} bg={C.purpleLight} />
@@ -274,7 +274,7 @@ export default function ProspectCaseStudy() {
               <PhoneFrame label="Profile Setup">
                 <div style={{ fontFamily: fonts.sans, fontSize: 11, color: C.accent, fontWeight: 600, marginBottom: 16 }}>PROSPECT</div>
                 <div style={{ fontFamily: fonts.serif, fontSize: 20, fontWeight: 700, color: C.text, marginBottom: 4 }}>Let's build your profile</div>
-                <div style={{ fontFamily: fonts.sans, fontSize: 12, color: C.muted, marginBottom: 20 }}>This helps us find schools that fit you — not just schools you've heard of.</div>
+                <div style={{ fontFamily: fonts.sans, fontSize: 12, color: C.muted, marginBottom: 20 }}>This helps us find schools that fit you, not just schools you've heard of.</div>
 
                 {/* Progress */}
                 <div style={{ display: "flex", gap: 4, marginBottom: 20 }}>
@@ -531,12 +531,12 @@ export default function ProspectCaseStudy() {
               {/* What they're looking for */}
               <div style={{ padding: "10px 12px", background: C.accentLight, borderRadius: 8, marginBottom: 14 }}>
                 <div style={{ fontFamily: fonts.mono, fontSize: 9, color: C.accent, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 4, fontWeight: 600 }}>What Stanford Wants</div>
-                <div style={{ fontFamily: fonts.sans, fontSize: 11, color: C.muted, lineHeight: 1.5 }}>This prompt is about authenticity and personality. Stanford wants to see the real you — quirks, passions, daily habits. Avoid listing achievements. Be specific and vivid.</div>
+                <div style={{ fontFamily: fonts.sans, fontSize: 11, color: C.muted, lineHeight: 1.5 }}>This prompt is about authenticity and personality. Stanford wants to see the real you: quirks, passions, daily habits. Avoid listing achievements. Be specific and vivid.</div>
               </div>
 
               {/* Writing area mock */}
               <div style={{ padding: "12px", border: `1px solid ${C.border}`, borderRadius: 8, minHeight: 140, fontFamily: fonts.sans, fontSize: 12, color: C.text, lineHeight: 1.6, marginBottom: 12, background: "#FDFCFA" }}>
-                Dear future roommate, the first thing you should know about me is that I talk to my robot. Not like a weird way — but I built a small rover last year for robotics club and I still test...
+                Dear future roommate, the first thing you should know about me is that I talk to my robot. Not like a weird way, but I built a small rover last year for robotics club and I still test...
                 <span style={{ color: C.light }}>|</span>
               </div>
 
@@ -548,7 +548,7 @@ export default function ProspectCaseStudy() {
 
               {/* AI Feedback */}
               <div style={{ padding: "10px 12px", background: C.greenLight, borderRadius: 8, marginBottom: 8 }}>
-                <div style={{ fontFamily: fonts.sans, fontSize: 11, fontWeight: 600, color: C.green }}>✓ Strong opening — specific and personal</div>
+                <div style={{ fontFamily: fonts.sans, fontSize: 11, fontWeight: 600, color: C.green }}>✓ Strong opening: specific and personal</div>
                 <div style={{ fontFamily: fonts.sans, fontSize: 10, color: C.muted, marginTop: 2 }}>The robot detail is memorable and distinctive.</div>
               </div>
               <div style={{ padding: "10px 12px", background: C.amberLight, borderRadius: 8 }}>
@@ -563,7 +563,7 @@ export default function ProspectCaseStudy() {
 
         {/* Prioritization */}
         <Label>Prioritization</Label>
-        <Title>RICE Framework — MVP Features</Title>
+        <Title>RICE Framework: MVP Features</Title>
         <Body>The MVP focuses on the list-building engine first. A strong list is the foundation that all supplement work builds on, and it's the highest-value feature for students without access to counseling.</Body>
 
         <Card style={{ margin: "24px 0", padding: 0, overflow: "hidden" }}>
@@ -584,7 +584,7 @@ export default function ProspectCaseStudy() {
           <RICERow feature="Counselor dashboard" reach="20%" impact={1.5} confidence={50} effort="4 mo" score="4" priority="" />
         </Card>
 
-        <Body>The first two features — profile intake with school matching and reach/match/safety classification — form the core MVP. They're the highest-impact, highest-confidence features that differentiate Prospect from existing tools. The supplement and writing features layer on top in Phase 2.</Body>
+        <Body>The first two features (profile intake with school matching and reach/match/safety classification) form the core MVP. They're the highest-impact, highest-confidence features that differentiate Prospect from existing tools. The supplement and writing features layer on top in Phase 2.</Body>
 
         <Divider />
 
@@ -604,7 +604,7 @@ export default function ProspectCaseStudy() {
             <div style={{ fontFamily: fonts.mono, fontSize: 10, color: C.purple, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 8, fontWeight: 600 }}>Distribution Strategy</div>
             <div style={{ fontFamily: fonts.sans, fontSize: 13, color: C.muted, lineHeight: 1.7 }}>
               <strong style={{ color: C.text }}>Phase 1:</strong> Direct-to-student via social (TikTok, Instagram) during Aug–Dec application season. Partnership with college prep YouTube creators.<br/><br/>
-              <strong style={{ color: C.text }}>Phase 2:</strong> School counselor partnerships — free counselor dashboard drives organic student adoption. Target Title I schools first for mission alignment.<br/><br/>
+              <strong style={{ color: C.text }}>Phase 2:</strong> School counselor partnerships: free counselor dashboard drives organic student adoption. Target Title I schools first for mission alignment.<br/><br/>
               <strong style={{ color: C.text }}>Phase 3:</strong> District-level licensing (B2B2C) where schools pay for Prospect Plus access for all students.
             </div>
           </Card>
@@ -639,10 +639,10 @@ export default function ProspectCaseStudy() {
 
         <div style={{ display: "flex", flexDirection: "column", gap: 12, margin: "24px 0" }}>
           {[
-            { risk: "AI writing coach produces generic advice", mitigation: "Ground all feedback in school-specific admissions data and real admit patterns. Never generate essay content — only coach, question, and suggest. Human-in-the-loop review during beta.", severity: "High", color: C.red, bg: C.redLight },
+            { risk: "AI writing coach produces generic advice", mitigation: "Ground all feedback in school-specific admissions data and real admit patterns. Never generate essay content. Only coach, question, and suggest. Human-in-the-loop review during beta.", severity: "High", color: C.red, bg: C.redLight },
             { risk: "Data accuracy for school matching", mitigation: "Use IPEDS + Common Data Set as primary sources. Build a reporting mechanism for users to flag inaccuracies. Partner with CollegeBoard for official data access.", severity: "High", color: C.red, bg: C.redLight },
             { risk: "Seasonal usage creates revenue volatility", mitigation: "Application season (Aug–Jan) drives ~80% of usage. Expand to include junior-year exploration features and scholarship search to extend engagement window.", severity: "Medium", color: C.amber, bg: C.amberLight },
-            { risk: "Free tier is 'good enough' — low conversion", mitigation: "Free tier gives the list. Paid tier gives the strategy. The aha moment is seeing prompt overlaps and school-specific writing guidance — features that clearly require the upgrade.", severity: "Medium", color: C.amber, bg: C.amberLight },
+            { risk: "Free tier is 'good enough', low conversion", mitigation: "Free tier gives the list. Paid tier gives the strategy. The aha moment is seeing prompt overlaps and school-specific writing guidance, features that clearly require the upgrade.", severity: "Medium", color: C.amber, bg: C.amberLight },
           ].map((r, i) => (
             <Card key={i} style={{ display: "flex", gap: 14 }}>
               <div style={{ padding: "3px 8px", borderRadius: 4, background: r.bg, color: r.color, fontFamily: fonts.mono, fontSize: 10, fontWeight: 600, height: "fit-content", whiteSpace: "nowrap" }}>{r.severity}</div>
@@ -661,7 +661,7 @@ export default function ProspectCaseStudy() {
           <div style={{ fontFamily: fonts.mono, fontSize: 11, letterSpacing: "0.15em", textTransform: "uppercase", color: C.accent, marginBottom: 12 }}>About the Author</div>
           <div style={{ fontFamily: fonts.serif, fontSize: 24, fontWeight: 700, color: C.text, marginBottom: 8 }}>Spencer Horstman</div>
           <div style={{ fontFamily: fonts.sans, fontSize: 15, color: C.muted, maxWidth: 480, margin: "0 auto", lineHeight: 1.7 }}>
-            Product Manager with 9 years of experience in educational consulting. Prospect is a concept informed by direct observation of the inequities in college admissions guidance — and the belief that good advice shouldn't be a luxury.
+            Product Manager with 9 years of experience in educational consulting. Prospect is a concept informed by direct observation of the inequities in college admissions guidance, and the belief that good advice shouldn't be a luxury.
           </div>
           <div style={{ marginTop: 16, fontFamily: fonts.sans, fontSize: 14, color: C.light }}>
             spencerhorstman@gmail.com · Valley Glen, CA
