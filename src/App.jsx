@@ -37,7 +37,7 @@ function HomePage({ onNavigate }) {
           fontFamily: fonts.sans,
           fontSize: 16,
           color: "#999",
-          maxWidth: 540,
+          maxWidth: 700,
           margin: "0 auto 8px",
           lineHeight: 1.6,
         }}>Product Manager with 9 years of domain expertise in edtech and higher education.</p>
