@@ -144,7 +144,7 @@ export default function ProspectCaseStudy() {
 
         <Card style={{ margin: "0 0 24px", padding: 20, background: C.accentLight, border: `1px solid ${C.accent}30` }}>
           <div style={{ fontFamily: fonts.mono, fontSize: 10, color: C.accent, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 8, fontWeight: 600 }}>The Insight</div>
-          <div style={{ fontFamily: fonts.serif, fontSize: 18, color: C.text, lineHeight: 1.5, fontStyle: "italic" }}>"After 9 years of consulting, I realized the biggest value I provide isn't expertise. It's structure. I help students see which schools actually fit them, spot the overlap in their essay prompts, and stay on track. That's not magic. It's a system, and systems can scale."</div>
+          <div style={{ fontFamily: fonts.serif, fontSize: 18, color: C.text, lineHeight: 1.5, fontStyle: "italic" }}>"Every year I watch smart kids make the same preventable mistakes: unbalanced lists, generic essays, missed supplements. Not because they lack ability, but because nobody showed them how to organize the process. That's the gap Prospect fills."</div>
           <div style={{ fontFamily: fonts.sans, fontSize: 13, color: C.muted, marginTop: 8 }}>— Spencer Horstman</div>
         </Card>
 
