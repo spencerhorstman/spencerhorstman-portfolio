@@ -35,7 +35,7 @@ function HomePage({ onNavigate }) {
         }}>Spencer Horstman</h1>
         <p style={{
           fontFamily: fonts.sans,
-          fontSize: 18,
+          fontSize: 16,
           color: "#999",
           maxWidth: 540,
           margin: "0 auto 8px",
